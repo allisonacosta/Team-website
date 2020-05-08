@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li><img src="https://cdn11.bigcommerce.com/s-5ig7x53cx8/images/stencil/1280x1280/products/2805/5906/ME-4024-Sports-Ball-Soccer-2__49617.1539788684.png?c=2" width=50px;></a></li>
+  <li><a href="index2.html"> HOME PAGE </a></li>
+  <li><a href="roster.html"> ROSTER </a></li>
+  <li><a href="PL.html"> PRACTICE LOCATIONS </a></li>
+  <li><a href="schedule.html"> SCHEDULE </a></li>
+  <li><a href="facts.html"> FACTS </a></li>
+</ul>
+  <br><br><br><br>
+  <h1 class="heading"><center> Schedule</center></h1>
+ <div class="container-box">
+  <div class="box a">Monday: Practice at 4:30 @ Black Mountain</div>
+  <div class="box b">Tuesday:N/A</div>
+  <div class="box c">Wedsnesday: Practice at 4:30 @ Black Mountain</div>
+  <div class="box d">Thursday: N/A</div>
+</div>
+  <center><img src="https://s3-us-west-2.amazonaws.com/live-cff-com/uploads/clubs/logos/crops/54-54fb91derclub.png" width=600px;></center>
+
+</body>
+<style>
+h1 {
+  font-size: 90px;
+  color: #072F5F;
+}
+body { 
+  background-color: 
+   #8FD3FE; 
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: WHITE;
+  position: fixed;
+}
+li {
+  display: inline;
+  float: left;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 50px;
+  font-size: 23px;
+  color: #072F5F;
+}
+.container-box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto;
+  grid-template-rows: 300px 100px;
+  grid-template-areas:
+    'a b c d'
+    'a e f f'
+  ;
+}
+
+.box {
+  height: 30vh;
+  width: 100%;
+  border: white 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #072F5F;
+  border-radius: 5px;
+  text-color: white;
+}
+
+.a {
+  grid-area: a;
+  
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+.box {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+@media only screen and (max-width: 768px) {
+  
+  .container-box {
+    flex-direction: column;
+  }
+  .box {
+    font-size: 20px;}
+  
+  body {
+    background-color: #072F5F}
+  
+  .a {
+    border: solid 2px;
+    border-color: white;
+  }
+    .b {
+    border: solid 2px;
+    border-color: white;
+  }
+    .c {
+    border: solid 2px;
+    border-color: white;
+  }
+  .d {
+    border: solid 2px;
+    border-color: white;
+  }
+}
+</style>
+</html>
